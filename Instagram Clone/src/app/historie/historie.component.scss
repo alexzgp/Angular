@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color: black;
+.historie{
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    .imgPerfil{
+        width: 65px;
+        height: 65px;  
+        }
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12PX;
+    }
+}

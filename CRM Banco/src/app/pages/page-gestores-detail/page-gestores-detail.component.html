@@ -1,0 +1,4 @@
+<div *ngIf="gestor$ | async">
+    <app-form-gestor [gestor]="(gestor$ | async)!"></app-form-gestor>
+</div>
+

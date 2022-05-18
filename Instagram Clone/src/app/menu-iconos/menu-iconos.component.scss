@@ -1,0 +1,29 @@
+.iconos{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        width: 300px;
+        a{
+            color: black;
+            font-size: 24px;
+        }
+        .imgPerfil{        
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+.second__menu{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+.second_menu_hidden {
+    display:none;
+}
+
+.iconos:hover .second__menu,
+.iconos:focus .second__menu {
+  visibility: visible;
+}

@@ -1,0 +1,4 @@
+<div>
+    <app-form-button textButton="Añadir gestor" (onPressMyButton)="goTo('/gestores/create')"></app-form-button>
+</div> 
+<app-table path="/gestores/" [data]="gestoresList$"></app-table>

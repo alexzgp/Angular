@@ -1,0 +1,19 @@
+.travel-list {
+  width: 100%;
+  display: grid;
+  gap: 2em;
+  padding: 3em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  @media only screen and (max-width: 1150px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
