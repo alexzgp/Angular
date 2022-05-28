@@ -1,0 +1,3 @@
+<div *ngIf="manager$ | async">
+    <app-form-manager [manager]="(manager$ | async)!"></app-form-manager>
+</div>

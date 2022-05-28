@@ -1,0 +1,23 @@
+app-sidebar {
+    position: fixed;
+    top: 0;
+}
+
+app-nav-movil {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    app-sidebar {
+        width: 100%;
+        // top: 0;
+        position: fixed;
+    }
+
+    app-nav-movil {
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        display: block;
+    }
+}

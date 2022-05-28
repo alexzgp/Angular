@@ -1,0 +1,18 @@
+<div *ngIf="manager" class="container">
+    <div class="field">
+        <label>Usuario: </label>
+        <input id="name" [(ngModel)]="manager.usuario" placeholder="Username">
+    </div>
+
+    <div class="field">
+        <label>Correo: </label>
+        <input id="email" [(ngModel)]="manager.correo" placeholder="Email">
+    </div>
+
+    <div class="field">
+        <label>Contraseña: </label>
+        <input id="password" type="password" [(ngModel)]="manager.password" placeholder="Password">
+    </div>
+
+    <app-form-button textButton="Save Manager" (onPressMyButton)="onPressButton()"></app-form-button>
+</div>

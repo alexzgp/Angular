@@ -1,0 +1,27 @@
+.container {
+    margin-left: 200px;
+
+    .header {
+        height: 50px;
+        background: rgb(49, 105, 188);
+        display: flex;
+        align-items: center;
+        .title {
+            margin: 0px 10px;
+            font-size: 35px;
+            color: azure;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        margin-left: 0;
+
+        .header {
+            margin-top: 50px;
+        }
+    }
+    
+}
+    

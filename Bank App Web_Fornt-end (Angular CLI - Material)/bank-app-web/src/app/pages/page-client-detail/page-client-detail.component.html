@@ -1,0 +1,3 @@
+<div *ngIf="client$ | async">
+    <app-form-client [client]="(client$ | async)!"></app-form-client>
+</div>

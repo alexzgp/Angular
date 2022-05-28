@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="header">
+        <h1 class="title">{{ title }}</h1>
+    </div>
+    <app-table path="/clients/" [data]="clientsList$"></app-table>
+    <app-form-button textButton="Add Client" (onPressMyButton)="goTo('/clients/create')"></app-form-button>
+</div> 

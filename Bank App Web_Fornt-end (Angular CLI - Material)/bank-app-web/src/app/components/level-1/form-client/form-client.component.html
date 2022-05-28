@@ -1,0 +1,29 @@
+<div *ngIf="client" class="container">
+
+    <div class="field">
+        <label>Usuario: </label>
+        <input id="name" [(ngModel)]="client.usuario" placeholder="Username">
+    </div> 
+
+    <div class="field">
+        <label>Gestor: </label>
+        <input id="id_gestor" [(ngModel)]="client.id_gestor" placeholder="Número de gestor">
+    </div>
+
+    <div class="field">
+        <label>Contraseña: </label>
+        <input type="password" id="password" [(ngModel)]="client.password" placeholder="Contraseña">
+    </div>
+
+    <div class="field">
+        <label>Correo: </label>
+        <input id="email" [(ngModel)]="client.correo" placeholder="Email">
+    </div>
+
+    <div class="field">
+        <label>Saldo actual: </label>
+        <input id="saldo" [(ngModel)]="client.saldo" placeholder="Saldo">
+    </div>
+
+    <app-form-button textButton="Save Client" (onPressMyButton)="onPressButton()"></app-form-button>
+</div>
