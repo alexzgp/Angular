@@ -8,3 +8,7 @@ npm install
 Iniciar el proyecto de angular
 
 ng serve --open
+
+# Nota  
+
+El proyecto de Web-App tiene el servidor NodeJS en la carpeta de Back-end
